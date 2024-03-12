@@ -6,7 +6,6 @@ import {
   Link,
   List,
   ListItem,
-  Heading,
   Image,
   HStack,
   Text,
@@ -16,7 +15,7 @@ import hardcodedAddresses from './walletAddresses.json'; // Assuming this file i
 
 // Example sponsor to image mapping
 const sponsorImages = {
-  milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/9d58a0b0-b4ab-4c42-3881-68bba3996900/public',
+  milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/78267ee6-fa89-4e43-6b7a-4891ce84a500/public',
   goblins: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
   surfers: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cceda807-5155-4afe-337d-992ac314c200/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/2d1fe668-445d-43fa-17fe-37e57c9c2800/public'
@@ -60,9 +59,15 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box p={5}>
+      <Box p={5} bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
-          <Heading as="h1" size="lg" textAlign="center">SOLympic Games LEADERBOARD</Heading>
+        <Image 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/9ee58496-dc88-4df4-2030-329c0d935f00/public' 
+            alt="SOLympic Games Leaderboard" 
+            width="auto" // Adjust width as needed
+            height="auto" // Adjust height as needed
+            m="auto"
+          />
           <List spacing={3} width="full">
             {balances.map((wallet, index) => (
               <ListItem key={index}>
