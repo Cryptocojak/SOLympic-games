@@ -80,7 +80,7 @@ function App() {
               <ListItem key={index}>
                 <HStack spacing={4}>
                   <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" />
-                  <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full">
+                  <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300">
                     <Text>
                       {`${index + 1}. ${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
                       {` ${wallet.balance.toFixed(9)} SOL - `}
@@ -99,6 +99,15 @@ function App() {
             width="350px" 
             objectFit="cover" 
             m="auto" />
+
+          <Box as="footer" width="full" py={5} textAlign="center">
+          <Text>
+            Created by 
+            <Link href="https://twitter.com/cryptocojak" isExternal color="blue.500" ml={1}>
+              @cryptocojak
+            </Link>
+          </Text>
+        </Box>
         </VStack>
       </Box>
     </ChakraProvider>
