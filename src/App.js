@@ -62,8 +62,15 @@ function App() {
       <Box p={5} bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
         <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/9ee58496-dc88-4df4-2030-329c0d935f00/public' 
-            alt="SOLympic Games Leaderboard" 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/c2008f17-b7f9-4b6e-8346-0b14de001600/public' 
+            alt="SOLympic Games" 
+            width="auto" // Adjust width as needed
+            height="auto" // Adjust height as needed
+            m="auto"
+          />
+          <Image 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/8a8c0c05-fa89-40b5-4d1b-d1863c1fd700/public' 
+            alt="Leaderboard" 
             width="auto" // Adjust width as needed
             height="auto" // Adjust height as needed
             m="auto"
