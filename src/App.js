@@ -18,7 +18,8 @@ const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/78267ee6-fa89-4e43-6b7a-4891ce84a500/public',
   goblins: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
   surfers: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cceda807-5155-4afe-337d-992ac314c200/public',
-  cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/2d1fe668-445d-43fa-17fe-37e57c9c2800/public'
+  cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/2d1fe668-445d-43fa-17fe-37e57c9c2800/public',
+  unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/e65eda39-0037-46e6-dc03-e28664675700/public'
   // Add more mappings as necessary
 };
 
@@ -78,12 +79,12 @@ function App() {
           <List spacing={3} width="full">
             {balances.map((wallet, index) => (
               <ListItem key={index}>
-                <HStack spacing={4}>
+                <HStack spacing={4} justify="center" width="full">
                   <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" />
-                  <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300">
+                  <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300" margin="auto">
                     <Text>
                       {`${index + 1}. ${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
-                      {` ${wallet.balance.toFixed(9)} SOL - `}
+                      {` ${wallet.balance.toFixed(3)} SOL`} <br />
                       <Link href={`https://solscan.io/account/${wallet.address}`} isExternal color="blue.500">
                         View on Solscan
                       </Link>
