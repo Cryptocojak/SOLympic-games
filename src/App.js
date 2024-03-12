@@ -19,6 +19,7 @@ const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/9d58a0b0-b4ab-4c42-3881-68bba3996900/public',
   goblins: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
   surfers: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cceda807-5155-4afe-337d-992ac314c200/public',
+  cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/2d1fe668-445d-43fa-17fe-37e57c9c2800/public'
   // Add more mappings as necessary
 };
 
