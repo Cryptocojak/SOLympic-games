@@ -64,16 +64,16 @@ function App() {
       <Box p={5} bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
         <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/0e658216-d3d6-4176-ed28-5a3d243de600/public' 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/5f475fe4-b697-402b-a5e8-34ed579bae00/public' 
             alt="SOLympic Games" 
-            width="auto"
+            width="75%"
             height="auto" 
             m="auto"
           />
           <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ac464a8f-d297-469b-9a2e-598f7c26d700/public' 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a4c57b09-d60a-4c40-838a-a208ba340f00/public' 
             alt="Leaderboard" 
-            width="auto"
+            width="50%"
             height="auto"
             m="auto"
           />
@@ -83,9 +83,10 @@ function App() {
                 <HStack spacing={4} justify="center" width="full">
                   <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" />
                   <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300" margin="auto">
-                    <Text>
-                      {`${index + 1}. ${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
-                      {` ${wallet.balance.toFixed(3)} SOL`} 
+                  <Text as="span" fontWeight="bold">{`${index + 1}. `}</Text>
+                  <Text as="span">
+                    {`${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
+                    {` ${wallet.balance.toFixed(3)} SOL`}
                       <br />
                       <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
                         @{wallet.twitter}
