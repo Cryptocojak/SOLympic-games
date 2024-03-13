@@ -85,7 +85,8 @@ function App() {
                   <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300" margin="auto">
                     <Text>
                       {`${index + 1}. ${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
-                      {` ${wallet.balance.toFixed(3)} SOL  -->`} 
+                      {` ${wallet.balance.toFixed(3)} SOL`} 
+                      <br />
                       <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
                         @{wallet.twitter}
                       </Link>
