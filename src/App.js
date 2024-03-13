@@ -11,16 +11,14 @@ import {
   Text,
   theme,
 } from '@chakra-ui/react';
-import hardcodedAddresses from './walletAddresses.json'; // Assuming this file is correctly placed and imported
+import hardcodedAddresses from './walletAddresses.json'; 
 
-// Example sponsor to image mapping
 const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/78267ee6-fa89-4e43-6b7a-4891ce84a500/public',
   goblins: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a2d68b73-2a9a-4187-51cb-e36c94867f00/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/2d1fe668-445d-43fa-17fe-37e57c9c2800/public',
   unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a03abb01-1256-433c-3617-89f4ae02e000/public'
-  // Add more mappings as necessary
 };
 
 function App() {
@@ -35,14 +33,16 @@ function App() {
         },
         body: JSON.stringify({ walletAddresses: hardcodedAddresses.map(ha => ha.address) }),
       });
-
+  
       if (response.ok) {
         let data = await response.json();
         // Sort the wallets based on balance in descending order
         data = data.sort((a, b) => b.balance - a.balance);
         setBalances(data.map(d => ({
           ...d,
-          sponsor: hardcodedAddresses.find(ha => ha.address === d.address)?.sponsor
+          sponsor: hardcodedAddresses.find(ha => ha.address === d.address)?.sponsor,
+          // Include the twitter handle in the mapping
+          twitter: hardcodedAddresses.find(ha => ha.address === d.address)?.twitter
         })));
       } else {
         console.error('Failed to fetch balances');
@@ -51,6 +51,7 @@ function App() {
       console.error('Failed to fetch balances:', error);
     }
   }, []); 
+  
 
   useEffect(() => {
     getBalances(); // Call getBalances on component mount
@@ -65,15 +66,15 @@ function App() {
         <Image 
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/0e658216-d3d6-4176-ed28-5a3d243de600/public' 
             alt="SOLympic Games" 
-            width="auto" // Adjust width as needed
-            height="auto" // Adjust height as needed
+            width="auto"
+            height="auto" 
             m="auto"
           />
           <Image 
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ac464a8f-d297-469b-9a2e-598f7c26d700/public' 
             alt="Leaderboard" 
-            width="auto" // Adjust width as needed
-            height="auto" // Adjust height as needed
+            width="auto"
+            height="auto"
             m="auto"
           />
           <List spacing={3} width="full">
@@ -84,7 +85,12 @@ function App() {
                   <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300" margin="auto">
                     <Text>
                       {`${index + 1}. ${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
-                      {` ${wallet.balance.toFixed(3)} SOL`} <br />
+                      {` ${wallet.balance.toFixed(3)} SOL`} 
+                      <br />
+                      <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
+                        @{wallet.twitter}
+                      </Link>
+                      <br />
                       <Link href={`https://solscan.io/account/${wallet.address}`} isExternal color="blue.500">
                         View on Solscan
                       </Link>
@@ -100,7 +106,6 @@ function App() {
             width="350px" 
             objectFit="cover" 
             m="auto" />
-
           <Box as="footer" width="full" py={5} textAlign="center">
           <Text>
             Created by 

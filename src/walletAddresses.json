@@ -1,27 +1,33 @@
   [
     {
       "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-      "sponsor": "milady"
+      "sponsor": "milady",
+      "twitter": "wirelyss"
     },
     {
       "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-      "sponsor": "goblins"
+      "sponsor": "goblins",
+      "twitter": "shrimpbrah"
     },
     {
       "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-      "sponsor": "cryptogame"
+      "sponsor": "cryptogame",
+      "twitter": "cryptothegame_"
     },
     {
-      "address":"4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-      "sponsor":"cigs"
+      "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
+      "sponsor": "cigs",
+      "twitter": "cryptocojak"
     },
     {
-      "address":"DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-      "sponsor":"unsponsored"
+      "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+      "sponsor": "unsponsored",
+      "twitter": "goblintown"
     },
     {
-      "address":"DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-      "sponsor":"cigs"
+      "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
+      "sponsor": "cigs",
+      "twitter": "cryptocojak"
     }
   ]
   
