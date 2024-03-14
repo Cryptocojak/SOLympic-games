@@ -156,7 +156,8 @@ function App() {
             alt="Milady" 
             width="350px" 
             objectFit="cover" 
-            m="auto" />
+            m="auto"
+            borderRadius="lg" />
           <Box as="footer" width="full" py={5} textAlign="center">
           <Text>
             Created by 
