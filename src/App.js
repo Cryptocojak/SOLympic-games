@@ -91,18 +91,46 @@ function App() {
             <ListItem key={index}>
               <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
               {/* Rank, Twitter, and Icon Container */}
-              <Flex flex="1" direction="row" alignItems="center" justifyContent="start" minW="0">
-                {/* Rank */}
-                <Text fontWeight="bold" fontSize="xl" mr={4}>{`${index + 1}`}</Text>
-                
-                {/* Twitter Handle */}
-                <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500" isTruncated maxW="full">
-                  @{wallet.twitter}
-                </Link>
+              <Flex
+  direction={{ base: "column", md: "row" }}
+  alignItems={{ base: "flex-start", md: "center" }}
+  justifyContent="start"
+  textAlign={{ base: "left", md: "center" }}
+  flex="1"
+  minW="0"
+>
+  {/* Rank */}
+  <Text
+    fontWeight="bold"
+    fontSize="xl"
+    mr={{ base: "0", md: "4" }}
+    mb={{ base: "1", md: "0" }} // Add bottom margin on small screens
+  >
+    {`${index + 1}`}
+  </Text>
+  
+  {/* Twitter Handle */}
+  <Link
+    href={`https://twitter.com/${wallet.twitter}`}
+    isExternal
+    color="blue.500"
+    maxW="full"
+    my={{ base: "1", md: "0" }} // Adjust top and bottom margins on small screens
+  >
+    @{wallet.twitter}
+  </Link>
 
-                {/* Sponsor Image */}
-                <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" ml={2} />
-              </Flex>
+  {/* Sponsor Image */}
+  <Image
+    src={sponsorImages[wallet.sponsor]}
+    alt={wallet.sponsor}
+    boxSize="50px"
+    objectFit="cover"
+    ml={{ base: "0", md: "2" }}
+    mt={{ base: "1", md: "0" }} // Adjust top margin on small screens
+  />
+</Flex>
+
 
                 {/* Balance */}
                 <Text flex="1" textAlign="center" mb={["2", "2", "0"]}>{`${wallet.balance.toFixed(3)}`}</Text>
