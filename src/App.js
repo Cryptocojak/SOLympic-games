@@ -80,7 +80,6 @@ function App() {
           {/* Column Headers */}
         <Flex justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
           <Text fontWeight="bold" flex="1" textAlign="left">Rank, Twitter & Sponsor</Text>
-          {/* <Text fontWeight="bold" flex="1" textAlign="center"></Text> */}
           <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
           <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
         </Flex>
@@ -92,43 +91,50 @@ function App() {
               <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
               {/* Rank, Twitter, and Icon Container */}
               <Flex
-  direction={{ base: "column", md: "row" }}
-  alignItems={{ base: "flex-start", md: "center" }}
-  justifyContent="start"
-  textAlign={{ base: "left", md: "center" }}
-  flex="1"
-  minW="0"
->
-  {/* Rank */}
-  <Text
-    fontWeight="bold"
-    fontSize="xl"
-    mr={{ base: "0", md: "4" }}
-    mb={{ base: "1", md: "0" }} // Add bottom margin on small screens
+    direction={{ base: "column", md: "row" }}
+    alignItems={{ base: "flex-start", md: "center" }}
+    justifyContent="start"
+    textAlign={{ base: "left", md: "center" }}
+    flex="1"
+    minW="0"
   >
-    {`${index + 1}`}
-  </Text>
-  
-  {/* Twitter Handle */}
-  <Link
-    href={`https://twitter.com/${wallet.twitter}`}
-    isExternal
-    color="blue.500"
-    maxW="full"
-    my={{ base: "1", md: "0" }} // Adjust top and bottom margins on small screens
-  >
-    @{wallet.twitter}
-  </Link>
+    {/* Rank */}
+    <Text
+      fontWeight="bold"
+      fontSize="xl"
+      mr={{ base: "0", md: "4" }}
+      mb={{ base: "1", md: "0" }} // Keep the bottom margin on small screens for spacing
+    >
+      {`${index + 1}`}
+    </Text>
+    
+    {/* Twitter Handle - Use Flex to prevent wrapping */}
+    <Flex
+      direction="row"
+      alignItems="center"
+      wrap="nowrap" // This prevents the Twitter handle from wrapping
+      maxW="full"
+      my={{ base: "1", md: "0" }} // Keep the vertical margins on small screens
+    >
+      <Link
+        href={`https://twitter.com/${wallet.twitter}`}
+        isExternal
+        color="blue.500"
+        whiteSpace="nowrap" // Prevents the content from wrapping
+      >
+        @{wallet.twitter}
+      </Link>
+    </Flex>
 
-  {/* Sponsor Image */}
-  <Image
-    src={sponsorImages[wallet.sponsor]}
-    alt={wallet.sponsor}
-    boxSize="50px"
-    objectFit="cover"
-    ml={{ base: "0", md: "2" }}
-    mt={{ base: "1", md: "0" }} // Adjust top margin on small screens
-  />
+    {/* Sponsor Image - Allow it to move below on small screens */}
+    <Image
+      src={sponsorImages[wallet.sponsor]}
+      alt={wallet.sponsor}
+      boxSize="50px"
+      objectFit="cover"
+      ml={{ base: "0", md: "2" }}
+      mt={{ base: "1", md: "0" }} // Adjust top margin on small screens
+    />
 </Flex>
 
 
