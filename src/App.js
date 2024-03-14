@@ -77,16 +77,30 @@ function App() {
             height="auto"
             m="auto"
           />
+          {/* Add a heading row for the list to label columns */}
+          <HStack justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
+            <Text fontWeight="bold" flex="1" textAlign="center">Sponsor</Text>
+            <Text fontWeight="bold" flex="1" textAlign="center">Rank</Text>
+            <Text fontWeight="bold" flex="2" textAlign="center">Person</Text>
+            <Text fontWeight="bold" flex="1" textAlign="center">Balance</Text>
+          </HStack>
+          {/* List rendering with distinct columns */}
           <List spacing={3} width="full">
             {balances.map((wallet, index) => (
               <ListItem key={index}>
                 <HStack spacing={4} justify="center" width="full">
-                  <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" />
-                  <Box p={2} shadow="md" borderWidth="1px" borderRadius="md" width="full" bg="gray.300" margin="auto">
-                  <Text as="span" fontWeight="bold">{`${index + 1}. `}</Text>
-                  <Text as="span">
-                    {`${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`} :  
-                    {` ${wallet.balance.toFixed(3)} SOL`}
+                 {/* Sponsor Column */}
+                  <Box flex="1" display="flex" justifyContent="center" alignItems="center">
+                    <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="100px" objectFit="cover" m="auto" />
+                  </Box>
+                  {/* Rank Column */}
+                  <Box flex="1" textAlign="center">
+                    <Text fontWeight="bold">{`${index + 1}.`}</Text>
+                  </Box>
+                  {/* Person Column */}
+                  <Box flex="2" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.300" margin="auto" textAlign="center">
+                    <Text>
+                      {`${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`}
                       <br />
                       <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
                         @{wallet.twitter}
@@ -96,6 +110,10 @@ function App() {
                         View on Solscan
                       </Link>
                     </Text>
+                  </Box>
+                  {/* Balance Column */}
+                  <Box flex="1" textAlign="center">
+                    <Text>{`${wallet.balance.toFixed(3)} SOL`}</Text>
                   </Box>
                 </HStack>
               </ListItem>
