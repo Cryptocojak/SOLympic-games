@@ -79,33 +79,36 @@ function App() {
           />
           {/* Column Headers */}
         <Flex justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
-          <Text fontWeight="bold" flex="1" textAlign="center">Rank</Text>
-          <Text fontWeight="bold" flex="2" textAlign="center">Twitter & Sponsor</Text>
-          <Text fontWeight="bold" flex="1" textAlign="center">Balance</Text>
+          <Text fontWeight="bold" flex="1" textAlign="left">Rank, Twitter & Sponsor</Text>
+          {/* <Text fontWeight="bold" flex="1" textAlign="center"></Text> */}
+          <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
           <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
         </Flex>
 
-        {/* List rendering with Twitter name and Sponsor image next to each other */}
+        {/* List rendering with no spacing between rows */}
         <List spacing={0} width="full">
           {balances.map((wallet, index) => (
             <ListItem key={index}>
-              <Flex direction="row" alignItems="center" justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
+              <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
+              {/* Rank, Twitter, and Icon Container */}
+              <Flex flex="1" direction="row" alignItems="center" justifyContent="start" minW="0">
                 {/* Rank */}
-                <Text flex="1" textAlign="center" fontWeight="bold" fontSize="2xl">{`${index + 1}`}</Text>
+                <Text fontWeight="bold" fontSize="xl" mr={4}>{`${index + 1}`}</Text>
+                
+                {/* Twitter Handle */}
+                <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500" isTruncated maxW="full">
+                  @{wallet.twitter}
+                </Link>
 
-                {/* Twitter Link and Sponsor Image */}
-                <Flex flex="2" align="center">
-                  <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
-                    @{wallet.twitter}
-                  </Link>
-                  <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" ml={2} />
-                </Flex>
+                {/* Sponsor Image */}
+                <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" ml={2} />
+              </Flex>
 
                 {/* Balance */}
-                <Text flex="1" textAlign="center">{`${wallet.balance.toFixed(3)} SOL`}</Text>
+                <Text flex="1" textAlign="center" mb={["2", "2", "0"]}>{`${wallet.balance.toFixed(3)}`}</Text>
 
                 {/* Solscan Link */}
-                <Flex flex="1" justify="center" align="center">
+                <Flex flex="1" justify={["flex-start", "flex-start", "center"]} align="center">
                   <Link href={`https://solscan.io/account/${wallet.address}`} isExternal color="blue.500">
                     View on Solscan
                   </Link>
