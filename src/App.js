@@ -46,7 +46,6 @@ function App() {
         setBalances(data.map(d => ({
           ...d,
           sponsor: hardcodedAddresses.find(ha => ha.address === d.address)?.sponsor,
-          // Include the twitter handle in the mapping
           twitter: hardcodedAddresses.find(ha => ha.address === d.address)?.twitter
         })));
       } else {
@@ -56,22 +55,18 @@ function App() {
       console.error('Failed to fetch balances:', error);
     }
   }, []); 
-  
 
   useEffect(() => {
-    getBalances(); // Call getBalances on component mount
-    const interval = setInterval(getBalances, 30000); // Refresh every 30 seconds
+    getBalances(); 
+    const interval = setInterval(getBalances, 45000); // Refresh every 45 seconds
     return () => clearInterval(interval);
   }, [getBalances]);
 
-  // Pagination logic
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = balances.slice(indexOfFirstItem, indexOfLastItem);
 
-  // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
 
   return (
     <ChakraProvider theme={theme}>
@@ -92,17 +87,15 @@ function App() {
             m="auto"
           />
           {/* Column Headers */}
-          <Flex justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
+          <Flex justify="center" width="full" p={2} borderWidth="1px" borderRadius="md" bg="gray.200">
             <Text fontWeight="bold" flex="1" textAlign="left">Rank, Twitter & Sponsor</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
           </Flex>
-  
-          {/* List rendering with no spacing between rows */}
           <List spacing={0} width="full">
             {currentItems.map((wallet, index) => (
               <ListItem key={index}>
-                <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
+                <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} bg="white">
                   {/* Rank, Twitter, and Icon Container */}
                   <Flex
                     direction={{ base: "column", md: "row" }}
@@ -172,16 +165,15 @@ function App() {
             disabled={currentPage <= 1} // Prevent going to previous page if on the first page
             mr="4"
           >
-            Prev Page
+            ↩️ Prev Page
           </Button>
           <Button
             onClick={() => currentPage < totalPages && paginate(currentPage + 1)}
             disabled={currentPage >= totalPages} // Disable if on the last page or no more items to show
           >
-            Next Page
+            Next Page ↪️
           </Button>
           </Flex>
-
   
           <Image 
             src="https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/f8841de3-7193-4b26-f072-f0e327e97100/public" 
@@ -194,6 +186,12 @@ function App() {
           <Box as="footer" width="full" py={5} textAlign="center">
             <Text>
               Created by 
+              <Link href="https://twitter.com/wirelyss" isExternal color="blue.500" ml={1}>
+                @wirelyss
+              </Link>
+            </Text>
+            <Text>
+              and 
               <Link href="https://twitter.com/cryptocojak" isExternal color="blue.500" ml={1}>
                 @cryptocojak
               </Link>
