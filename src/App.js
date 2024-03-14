@@ -7,7 +7,7 @@ import {
   List,
   ListItem,
   Image,
-  HStack,
+  Flex,
   Text,
   theme,
 } from '@chakra-ui/react';
@@ -77,48 +77,43 @@ function App() {
             height="auto"
             m="auto"
           />
-          {/* Add a heading row for the list to label columns */}
-          <HStack justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
-            <Text fontWeight="bold" flex="1" textAlign="center">Sponsor</Text>
-            <Text fontWeight="bold" flex="1" textAlign="center">Rank</Text>
-            <Text fontWeight="bold" flex="2" textAlign="center">Person</Text>
-            <Text fontWeight="bold" flex="1" textAlign="center">Balance</Text>
-          </HStack>
-          {/* List rendering with distinct columns */}
-          <List spacing={3} width="full">
-            {balances.map((wallet, index) => (
-              <ListItem key={index}>
-                <HStack spacing={4} justify="center" width="full">
-                 {/* Sponsor Column */}
-                  <Box flex="1" display="flex" justifyContent="center" alignItems="center">
-                    <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="100px" objectFit="cover" m="auto" />
-                  </Box>
-                  {/* Rank Column */}
-                  <Box flex="1" textAlign="center">
-                    <Text fontWeight="bold">{`${index + 1}.`}</Text>
-                  </Box>
-                  {/* Person Column */}
-                  <Box flex="2" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.300" margin="auto" textAlign="center">
-                    <Text>
-                      {`${wallet.address.substring(0, 4)}...${wallet.address.substring(wallet.address.length - 4)}`}
-                      <br />
-                      <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
-                        @{wallet.twitter}
-                      </Link>
-                      <br />
-                      <Link href={`https://solscan.io/account/${wallet.address}`} isExternal color="blue.500">
-                        View on Solscan
-                      </Link>
-                    </Text>
-                  </Box>
-                  {/* Balance Column */}
-                  <Box flex="1" textAlign="center">
-                    <Text>{`${wallet.balance.toFixed(3)} SOL`}</Text>
-                  </Box>
-                </HStack>
-              </ListItem>
-            ))}
-          </List>
+          {/* Column Headers */}
+        <Flex justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="gray.200">
+          <Text fontWeight="bold" flex="1" textAlign="center">Rank</Text>
+          <Text fontWeight="bold" flex="2" textAlign="center">Twitter & Sponsor</Text>
+          <Text fontWeight="bold" flex="1" textAlign="center">Balance</Text>
+          <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
+        </Flex>
+
+        {/* List rendering with Twitter name and Sponsor image next to each other */}
+        <List spacing={0} width="full">
+          {balances.map((wallet, index) => (
+            <ListItem key={index}>
+              <Flex direction="row" alignItems="center" justify="center" width="full" p={2} shadow="md" borderWidth="1px" borderRadius="md" bg="white">
+                {/* Rank */}
+                <Text flex="1" textAlign="center" fontWeight="bold" fontSize="2xl">{`${index + 1}`}</Text>
+
+                {/* Twitter Link and Sponsor Image */}
+                <Flex flex="2" align="center">
+                  <Link href={`https://twitter.com/${wallet.twitter}`} isExternal color="blue.500">
+                    @{wallet.twitter}
+                  </Link>
+                  <Image src={sponsorImages[wallet.sponsor]} alt={wallet.sponsor} boxSize="50px" objectFit="cover" ml={2} />
+                </Flex>
+
+                {/* Balance */}
+                <Text flex="1" textAlign="center">{`${wallet.balance.toFixed(3)} SOL`}</Text>
+
+                {/* Solscan Link */}
+                <Flex flex="1" justify="center" align="center">
+                  <Link href={`https://solscan.io/account/${wallet.address}`} isExternal color="blue.500">
+                    View on Solscan
+                  </Link>
+                </Flex>
+              </Flex>
+            </ListItem>
+          ))}
+        </List>
           <Image 
             src="https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/f8841de3-7193-4b26-f072-f0e327e97100/public" 
             alt="Milady" 
