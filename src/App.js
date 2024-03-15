@@ -75,7 +75,7 @@ function App() {
       <Box p={5} bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
           <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/5f475fe4-b697-402b-a5e8-34ed579bae00/public' 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b977fcaf-28e0-444a-ca3b-5058e42ed200/public' 
             alt="SOLympic Games" 
             width="75%"
             height="auto" 
