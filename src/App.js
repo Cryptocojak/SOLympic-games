@@ -16,7 +16,7 @@ import hardcodedAddresses from './walletAddresses.json';
 
 const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ae819d8a-e371-4a41-4367-0ee66d50a700/public',
-  goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
+  goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/bce89079-34c2-4652-3798-8ea5f929e800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/542788f0-ee85-4d66-6a6c-9acc7df2c000/public',
   unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a03abb01-1256-433c-3617-89f4ae02e000/public',
@@ -113,6 +113,7 @@ function App() {
                       fontSize="xl"
                       mr={{ base: "0", md: "4" }}
                       mb={{ base: "1", md: "0" }}
+                      width="45px"
                     >
                       {`${index + 1 + (currentPage - 1) * itemsPerPage}`}
                     </Text>
