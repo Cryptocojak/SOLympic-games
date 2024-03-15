@@ -15,12 +15,14 @@ import {
 import hardcodedAddresses from './walletAddresses.json'; 
 
 const sponsorImages = {
-  milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/78267ee6-fa89-4e43-6b7a-4891ce84a500/public',
-  goblins: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
-  cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a2d68b73-2a9a-4187-51cb-e36c94867f00/public',
+  milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ae819d8a-e371-4a41-4367-0ee66d50a700/public',
+  goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/4b0c2d77-33cb-450c-d087-dab3cfd22800/public',
+  cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/542788f0-ee85-4d66-6a6c-9acc7df2c000/public',
   unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a03abb01-1256-433c-3617-89f4ae02e000/public',
-  lawbs: 'https://prod-image-cdn.tensor.trade/images/slug=9fd3edd0-749e-469a-8163-b1c86c0cb70e/400x400/freeze=false/https%3A%2F%2Fgateway.pinit.io%2Fipfs%2FQmR7Sbgf6RCP1mVM6SAnK1Ghbq4iraBjpC3nrvTXFHtmyg%2F69'
+  lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
+  lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a1275f94-0cd1-463a-b0b2-c5d256d4d100/public',
+  unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public'
 };
 
 function App() {
