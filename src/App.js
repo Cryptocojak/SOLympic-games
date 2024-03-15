@@ -19,7 +19,7 @@ const sponsorImages = {
   goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/bce89079-34c2-4652-3798-8ea5f929e800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/542788f0-ee85-4d66-6a6c-9acc7df2c000/public',
-  unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a03abb01-1256-433c-3617-89f4ae02e000/public',
+  unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/03fda50c-6d1c-4e76-e584-6081d543d700/public',
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a1275f94-0cd1-463a-b0b2-c5d256d4d100/public',
   unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public'
@@ -125,6 +125,7 @@ function App() {
                       wrap="nowrap"
                       maxW="full"
                       my={{ base: "1", md: "0" }}
+                      width="145px"
                     >
                       <Link
                         href={`https://twitter.com/${wallet.twitter}`}
@@ -140,7 +141,7 @@ function App() {
                     <Image
                       src={sponsorImages[wallet.sponsor] || sponsorImages.unsponsored}
                       alt={wallet.sponsor}
-                      boxSize="50px"
+                      boxSize="40px"
                       objectFit="cover"
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}
