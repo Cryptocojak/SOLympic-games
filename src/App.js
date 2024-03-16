@@ -73,9 +73,9 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box p={0} bgColor="#BDE0FE" minHeight="100vh">
+      <Box  bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
-          <Image 
+          <Image p={5}
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b977fcaf-28e0-444a-ca3b-5058e42ed200/public' 
             alt="SOLympic Games" 
             width="75%"
@@ -94,7 +94,7 @@ function App() {
                 fontStyle="italic"
                 fontWeight="bold"
                 textAlign="center"
-                whiteSpace="nowrap" 
+                whiteSpace="nowrap"
                 width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
           
             <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
@@ -252,18 +252,18 @@ function App() {
 
           <Box
           width="100%" // Ensures the Box takes the full width of its container
-          height="150px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
+          height="240px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
           bgImage="url('https://pbs.twimg.com/profile_banners/1768023768574656513/1710526506/1500x500')"
           bgRepeat="repeat-x" // This will repeat the image horizontally
           bgSize="contain" // Adjust this as needed to fit the image nicely
           m="auto"
-          borderRadius="lg"
+          borderRadius="none"
         />
   
           <Image 
             src="https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/f8841de3-7193-4b26-f072-f0e327e97100/public" 
             alt="Milady" 
-            width="150px" 
+            width="175px" 
             objectFit="cover" 
             m="auto"
             borderRadius="lg"
@@ -276,7 +276,7 @@ function App() {
               </Link>
             </Text>
             <Text>
-              and 
+              Site by
               <Link href="https://twitter.com/cryptocojak" isExternal color="blue.500" ml={1}>
                 @cryptocojak
               </Link>
