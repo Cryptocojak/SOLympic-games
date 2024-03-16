@@ -22,7 +22,8 @@ const sponsorImages = {
   unsponsored: 'https://pbs.twimg.com/profile_images/1768701961409286144/JRAclGwb_400x400.jpg',
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a1275f94-0cd1-463a-b0b2-c5d256d4d100/public',
-  unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public'
+  unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public',
+  onlybots: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/acfc39a3-a769-42bb-db92-5aaca4782500/public'
 };
 
 function App() {
@@ -134,6 +135,12 @@ function App() {
   ml={{ base: "0", md: "2" }}
   mt={{ base: "1", md: "0" }}/></Flex></Link>
 </Flex>
+<Link href="https://twitter.com/onlydotbot" isExternal color="blue.500" fontSize='xl'><Flex>(onlybots)<Image
+  src={sponsorImages.onlybots}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
           {/* Column Headers */}
           <Flex justify="center" width="full" p={2} borderWidth="1px" borderRadius="md" bg="gray.200">
             <Text fontWeight="bold" flex="1" textAlign="left">Rank,     Twitter   &   Sponsor</Text>
