@@ -103,7 +103,7 @@ function App() {
                       objectFit="cover"
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='xl'><Flex >(Cryptothegame_)<Image
+  <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='xl'><Flex >(CryptoTheGame)<Image
   src={sponsorImages.cryptogame}
   boxSize="25px"
   objectFit="cover"
