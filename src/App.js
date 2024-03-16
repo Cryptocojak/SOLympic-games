@@ -29,7 +29,18 @@ const sponsorImages = {
 function App() {
   const [balances, setBalances] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+ // Dynamically set itemsPerPage based on viewport width
+ const [itemsPerPage, setItemsPerPage] = useState(window.innerWidth < 768 ? 5 : 10);
+
+ // Listen for changes in viewport size to adjust itemsPerPage
+ useEffect(() => {
+   const handleResize = () => {
+     setItemsPerPage(window.innerWidth < 768 ? 5 : 10);
+   };
+
+   window.addEventListener('resize', handleResize);
+   return () => window.removeEventListener('resize', handleResize);
+ }, []);
   const totalPages = Math.ceil(balances.length / itemsPerPage);
 
   const getBalances = useCallback(async () => {
@@ -58,6 +69,8 @@ function App() {
       console.error('Failed to fetch balances:', error);
     }
   }, []); 
+
+  
 
   useEffect(() => {
     getBalances(); 
@@ -97,7 +110,7 @@ function App() {
                 whiteSpace="nowrap"
                 width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
           
-            <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
+            <Flex align='baseline' justify='space-evenly' wrap="wrap" width="98%" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
                     
                     <Link href="https://twitter.com/SOLympicgames" isExternal color="blue.500" fontSize='small'><Flex >(SOLympic Games)<Image
                       src={sponsorImages.unsponsored}
@@ -188,7 +201,7 @@ function App() {
                       wrap="nowrap"
                       maxW="full"
                       my={{ base: "1", md: "0" }}
-                      width="145px"
+                      width="135px"
                     >
                       <Link
                         href={`https://twitter.com/${wallet.twitter}`}
@@ -201,7 +214,7 @@ function App() {
                       </Link>
                       {/* Sponsor Image */}
                     
-                    </Flex>
+                    </Flex >
                     <Image
                       src={sponsorImages[wallet.sponsor] || sponsorImages.unsponsored}
                       alt={wallet.sponsor}
