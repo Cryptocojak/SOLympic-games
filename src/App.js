@@ -73,7 +73,7 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box p={5} bgColor="#BDE0FE" minHeight="100vh">
+      <Box p={0} bgColor="#BDE0FE" minHeight="100vh">
         <VStack spacing={4}>
           <Image 
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b977fcaf-28e0-444a-ca3b-5058e42ed200/public' 
@@ -82,13 +82,20 @@ function App() {
             height="auto" 
             m="auto"
           />
-          <Image 
+          {/* <Image 
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a4c57b09-d60a-4c40-838a-a208ba340f00/public' 
             alt="Leaderboard" 
             width="50%"
             height="auto"
             m="auto"
-          />
+          /> */}
+         
+          <Text fontSize={["2xl", "80"]} // Adjust font size based on the viewport width
+                fontStyle="italic"
+                fontWeight="bold"
+                textAlign="center"
+                whiteSpace="nowrap" 
+                width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
           
             <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
                     
@@ -144,13 +151,13 @@ function App() {
 
 
           {/* Column Headers */}
-          <Flex justify="center" width="full" p={2} borderWidth="1px" borderRadius="md" bg="gray.200">
-            <Text fontWeight="bold" flex="1" textAlign="left">Rank,     Twitter   &   Sponsor</Text>
-            <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
-            <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
+          <Flex justify="center" width="98%" p={1} borderWidth="5px" borderRadius="none" bg="gray.200">
+            <Text fontWeight="black" flex="1" textAlign="left">~ Rank, Twitter   &   Sponsor ~</Text>
+            <Text fontWeight="black" flex="1" textAlign="center">~ SOL ~</Text>
+            <Text fontWeight="black" flex="1" textAlign="center">~ Solscan ~</Text>
           </Flex>
 
-          <List spacing={0} width="full">
+          <List spacing={0} width="98%">
             {currentItems.map((wallet, index) => (
               <ListItem key={index}>
                 <Flex direction="row" alignItems="center" justifyContent="center" width="full" p={2} bg="white">
@@ -192,9 +199,9 @@ function App() {
                       >
                         @{wallet.twitter}
                       </Link>
+                      {/* Sponsor Image */}
+                    
                     </Flex>
-  
-                    {/* Sponsor Image */}
                     <Image
                       src={sponsorImages[wallet.sponsor] || sponsorImages.unsponsored}
                       alt={wallet.sponsor}
@@ -203,6 +210,7 @@ function App() {
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}
                     />
+                    
                   </Flex>
   
                   {/* Balance */}
@@ -220,21 +228,28 @@ function App() {
           </List>
   
           {/* Pagination Controls */}
-          <Flex mt="4">
-          <Button
-            onClick={() => currentPage > 1 && paginate(currentPage - 1)}
-            disabled={currentPage <= 1} // Prevent going to previous page if on the first page
-            mr="4"
-          >
-            ↩️ Prev Page
-          </Button>
-          <Button
-            onClick={() => currentPage < totalPages && paginate(currentPage + 1)}
-            disabled={currentPage >= totalPages} // Disable if on the last page or no more items to show
-          >
-            Next Page ↪️
-          </Button>
+          <Flex mt="0" >
+            <Button
+              onClick={() => currentPage > 1 && paginate(currentPage - 1)}
+              disabled={currentPage <= 1} // Prevent going to previous page if on the first page
+              mr="1"
+              borderRadius='none' >
+              ↩️ Prev Page
+            </Button>
+
+            <Button
+              onClick={() => currentPage < totalPages && paginate(currentPage + 1)}
+              disabled={currentPage >= totalPages} // Disable if on the last page or no more items to show
+              mr="1"
+              borderRadius='none'>
+              Next Page ↪️
+            </Button>
           </Flex>
+
+            {/* Displaying the current page and total pages */}
+            <Text fontWeight='bold' fontStyle='italic' >{`${currentPage} / ${totalPages}`}</Text>
+
+
           <Box
           width="100%" // Ensures the Box takes the full width of its container
           height="150px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
