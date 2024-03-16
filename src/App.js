@@ -90,65 +90,66 @@ function App() {
             m="auto"
           />
           
-          <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
-  <Link href="https://twitter.com/SOLympicgames" isExternal color="blue.500" fontSize='small'><Flex >(SOLympic Games)<Image
+            <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
+                    
+                    <Link href="https://twitter.com/SOLympicgames" isExternal color="blue.500" fontSize='small'><Flex >(SOLympic Games)<Image
                       src={sponsorImages.unsponsored}
                       boxSize="25px"
                       objectFit="cover"
-                      justifyItems='center'
-                      j
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/goblintown" isExternal color="blue.500" fontSize='small'><Flex>(Goblintown)<Image
+                    <Link href="https://twitter.com/goblintown" isExternal color="blue.500" fontSize='small'><Flex>(Goblintown)<Image
                       src={sponsorImages.goblintown}
                       boxSize="25px"
                       objectFit="cover"
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='small'><Flex >(CryptoTheGame)<Image
-  src={sponsorImages.cryptogame}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/MiladyMaker333" isExternal color="blue.500" fontSize='small'><Flex>(anon)<Image
-  src={sponsorImages.milady}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/LawbStation" isExternal color="blue.500" fontSize='small'><Flex>(LawbStation)<Image
-  src={sponsorImages.lawbs}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/LMEOWSolToken" isExternal color="blue.500" fontSize='small'><Flex>(LMEOW)<Image
-  src={sponsorImages.lmeow}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
-  <Link href="https://twitter.com/unicornandmemes" isExternal color="blue.500" fontSize='small'><Flex>(unicornandmemes)<Image
-  src={sponsorImages.unicorn}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
+                   <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='small'><Flex >(CryptoTheGame)<Image
+                      src={sponsorImages.cryptogame}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+                   <Link href="https://twitter.com/MiladyMaker333" isExternal color="blue.500" fontSize='small'><Flex>(anon)<Image
+                      src={sponsorImages.milady}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+                    <Link href="https://twitter.com/LawbStation" isExternal color="blue.500" fontSize='small'><Flex>(LawbStation)<Image
+                      src={sponsorImages.lawbs}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+                   <Link href="https://twitter.com/LMEOWSolToken" isExternal color="blue.500" fontSize='small'><Flex>(LMEOW)<Image
+                      src={sponsorImages.lmeow}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+                    <Link href="https://twitter.com/unicornandmemes" isExternal color="blue.500" fontSize='small'><Flex>(unicornandmemes)<Image
+                      src={sponsorImages.unicorn}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+                    <Link href="https://twitter.com/onlydotbot" isExternal color="blue.500" fontSize='small'><Flex>(onlybots)<Image
+                      src={sponsorImages.onlybots}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+              </Flex>
 
-<Link href="https://twitter.com/onlydotbot" isExternal color="blue.500" fontSize='small'><Flex>(onlybots)<Image
-  src={sponsorImages.onlybots}
-  boxSize="25px"
-  objectFit="cover"
-  ml={{ base: "0", md: "2" }}
-  mt={{ base: "1", md: "0" }}/></Flex></Link>
-</Flex>
+
           {/* Column Headers */}
           <Flex justify="center" width="full" p={2} borderWidth="1px" borderRadius="md" bg="gray.200">
             <Text fontWeight="bold" flex="1" textAlign="left">Rank,     Twitter   &   Sponsor</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
           </Flex>
+
           <List spacing={0} width="full">
             {currentItems.map((wallet, index) => (
               <ListItem key={index}>
@@ -187,6 +188,7 @@ function App() {
                         isExternal
                         color="blue.500"
                         whiteSpace="nowrap"
+                        fontSize='small'
                       >
                         @{wallet.twitter}
                       </Link>
@@ -196,7 +198,7 @@ function App() {
                     <Image
                       src={sponsorImages[wallet.sponsor] || sponsorImages.unsponsored}
                       alt={wallet.sponsor}
-                      boxSize="40px"
+                      boxSize="25px"
                       objectFit="cover"
                       ml={{ base: "0", md: "2" }}
                       mt={{ base: "1", md: "0" }}
