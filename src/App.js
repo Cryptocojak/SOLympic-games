@@ -266,7 +266,7 @@ function App() {
           <Box
           width="100%" // Ensures the Box takes the full width of its container
           height="240px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
-          bgImage="url('https://pbs.twimg.com/profile_banners/1768023768574656513/1710526506/1500x500')"
+          bgImage="url('https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/e6998dbd-c7d8-4772-465c-d3443bdcd800/public')"
           bgRepeat="repeat-x" // This will repeat the image horizontally
           bgSize="contain" // Adjust this as needed to fit the image nicely
           m="auto"
