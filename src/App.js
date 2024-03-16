@@ -19,7 +19,7 @@ const sponsorImages = {
   goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/bce89079-34c2-4652-3798-8ea5f929e800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
   cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/542788f0-ee85-4d66-6a6c-9acc7df2c000/public',
-  unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/03fda50c-6d1c-4e76-e584-6081d543d700/public',
+  unsponsored: 'https://pbs.twimg.com/profile_images/1768701961409286144/JRAclGwb_400x400.jpg',
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a1275f94-0cd1-463a-b0b2-c5d256d4d100/public',
   unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public'
@@ -88,9 +88,55 @@ function App() {
             height="auto"
             m="auto"
           />
+          <Flex align='baseline' justify='space-evenly' wrap="wrap" width="full" fontFamily='monospace' height='-webkit-fit-content' justifyContent='space-evenly'>
+  <Link href="https://twitter.com/SOLympicgames" isExternal color="blue.500" fontSize='xl'><Flex >(SOLympic Games)<Image
+                      src={sponsorImages.unsponsored}
+                      boxSize="25px"
+                      objectFit="cover"
+                      justifyItems='center'
+                      j
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/goblintown" isExternal color="blue.500" fontSize='xl'><Flex>(Goblintown)<Image
+                      src={sponsorImages.goblintown}
+                      boxSize="25px"
+                      objectFit="cover"
+                      ml={{ base: "0", md: "2" }}
+                      mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='xl'><Flex >(Cryptothegame_)<Image
+  src={sponsorImages.cryptogame}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/MiladyMaker333" isExternal color="blue.500" fontSize='xl'><Flex>(anon)<Image
+  src={sponsorImages.milady}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/LawbStation" isExternal color="blue.500" fontSize='xl'><Flex>(LawbStation)<Image
+  src={sponsorImages.lawbs}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/LMEOWSolToken" isExternal color="blue.500" fontSize='xl'><Flex>(LMEOW)<Image
+  src={sponsorImages.lmeow}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
+  <Link href="https://twitter.com/unicornandmemes" isExternal color="blue.500" fontSize='xl'><Flex>(unicornandmemes)<Image
+  src={sponsorImages.unicorn}
+  boxSize="25px"
+  objectFit="cover"
+  ml={{ base: "0", md: "2" }}
+  mt={{ base: "1", md: "0" }}/></Flex></Link>
+</Flex>
           {/* Column Headers */}
           <Flex justify="center" width="full" p={2} borderWidth="1px" borderRadius="md" bg="gray.200">
-            <Text fontWeight="bold" flex="1" textAlign="left">Rank, Twitter & Sponsor</Text>
+            <Text fontWeight="bold" flex="1" textAlign="left">Rank,     Twitter   &   Sponsor</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">SOL</Text>
             <Text fontWeight="bold" flex="1" textAlign="center">Solscan</Text>
           </Flex>
@@ -110,12 +156,12 @@ function App() {
                     {/* Rank */}
                     <Text
                       fontWeight="bold"
-                      fontSize="xl"
+                      fontSize="xxl"
                       mr={{ base: "0", md: "4" }}
                       mb={{ base: "1", md: "0" }}
                       width="45px"
                     >
-                      {`${index + 1 + (currentPage - 1) * itemsPerPage}`}
+                      {`#${index + 1 + (currentPage - 1) * itemsPerPage}.`}
                     </Text>
                     
                     {/* Twitter Handle - Use Flex to prevent wrapping */}
@@ -178,11 +224,20 @@ function App() {
             Next Page ↪️
           </Button>
           </Flex>
+          <Box
+          width="100%" // Ensures the Box takes the full width of its container
+          height="150px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
+          bgImage="url('https://pbs.twimg.com/profile_banners/1768023768574656513/1710526506/1500x500')"
+          bgRepeat="repeat-x" // This will repeat the image horizontally
+          bgSize="contain" // Adjust this as needed to fit the image nicely
+          m="auto"
+          borderRadius="lg"
+        />
   
           <Image 
             src="https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/f8841de3-7193-4b26-f072-f0e327e97100/public" 
             alt="Milady" 
-            width="350px" 
+            width="150px" 
             objectFit="cover" 
             m="auto"
             borderRadius="lg"
