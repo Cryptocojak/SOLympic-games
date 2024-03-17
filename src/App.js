@@ -7,11 +7,10 @@ const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ae819d8a-e371-4a41-4367-0ee66d50a700/public',
   goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/bce89079-34c2-4652-3798-8ea5f929e800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
-  cigs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/542788f0-ee85-4d66-6a6c-9acc7df2c000/public',
   unsponsored: 'https://pbs.twimg.com/profile_images/1768701961409286144/JRAclGwb_400x400.jpg',
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a1275f94-0cd1-463a-b0b2-c5d256d4d100/public',
-  unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ccc99ff2-ef71-4d49-9ae9-5be2190c1d00/public',
+  unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b2ff3798-162a-4c3d-6291-a68a5c80ee00/public',
   onlybots: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/acfc39a3-a769-42bb-db92-5aaca4782500/public'
 };
 
@@ -69,10 +68,8 @@ const TickerItem = ({ sponsorName, sponsorImage, href }) => (
 function App() {
   const [balances, setBalances] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
- // Dynamically set itemsPerPage based on viewport width
  const [itemsPerPage, setItemsPerPage] = useState(window.innerWidth < 768 ? 5 : 10);
 
- // Listen for changes in viewport size to adjust itemsPerPage
  useEffect(() => {
    const handleResize = () => {
      setItemsPerPage(window.innerWidth < 768 ? 5 : 10);
@@ -95,7 +92,6 @@ function App() {
   
       if (response.ok) {
         let data = await response.json();
-        // Sort the wallets based on balance in descending order
         data = data.sort((a, b) => b.balance - a.balance);
         setBalances(data.map(d => ({
           ...d,
@@ -109,8 +105,6 @@ function App() {
       console.error('Failed to fetch balances:', error);
     }
   }, []); 
-
-  
 
   useEffect(() => {
     getBalances(); 
@@ -175,7 +169,6 @@ function App() {
           >
             <DynamicTickerContent sponsors={sponsors} />
           </Flex>
-
 
           {/* Column Headers */}
           <Flex justify="center" width="98%" p={1} borderWidth="5px" borderRadius="none" bg="gray.200">
@@ -274,7 +267,6 @@ function App() {
 
             {/* Displaying the current page and total pages */}
             <Text fontWeight='bold' fontStyle='italic' >{`${currentPage} / ${totalPages}`}</Text>
-
 
           <Box
           width="100%" // Ensures the Box takes the full width of its container
