@@ -279,7 +279,7 @@ function App() {
             objectFit="cover" 
             m="auto"
             borderRadius="lg"
-          />
+          /><br></br>
           <Flex align='stretch' mx={10} width='auto'>
           <Text fontSize='25px' fontWeight='black' fontStyle='italic' width='auto'>
               <Link href="https://twitter.com/SOLympicgames" isExternal color="black" ml={0}>
