@@ -7,7 +7,7 @@ const sponsorImages = {
   milady: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ae819d8a-e371-4a41-4367-0ee66d50a700/public',
   goblintown: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/bce89079-34c2-4652-3798-8ea5f929e800/public',
   cryptogame: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdecae2a-52e7-413d-1928-37f138431c00/public',
-  unsponsored: 'https://pbs.twimg.com/profile_images/1768701961409286144/JRAclGwb_400x400.jpg',
+  unsponsored: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ffff0a9a-2a66-4dde-ec80-89892b603b00/public',
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/5f14d527-4e76-4470-f43d-af1237dda100/public',
   unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b2ff3798-162a-4c3d-6291-a68a5c80ee00/public',
@@ -135,15 +135,8 @@ function App() {
             width="40%"
             height="auto"
             m="auto"
-          />
-          <br></br>
-         
-          {/* <Text fontSize={["2xl", "80"]} // Adjust font size based on the viewport width
-                fontStyle="italic"
-                fontWeight="bold"
-                textAlign="center"
-                whiteSpace="nowrap"
-                width={["100%", "75%", "50%"]}>LEADERBOARD</Text> */}
+          /><br></br>
+        
           
           <style>
             {`
