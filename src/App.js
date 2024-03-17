@@ -126,7 +126,7 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box  bgColor="#BDE0FE" minHeight="100vh">
+      <Box  bgColor="#BDE0FE" minHeight="100vh" overflowX="hidden">
         <VStack spacing={4}>
           <Image p={5}
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b977fcaf-28e0-444a-ca3b-5058e42ed200/public' 
@@ -157,7 +157,7 @@ function App() {
       to { transform: translateX(-50%); } // Ensure this matches the duplication
     }
     .scrollContainer {
-      animation: scrollAnimation 180s linear infinite; // Adjust time as needed
+      animation: scrollAnimation 300s linear infinite; // Adjust time as needed
     }
   `}
 </style>
