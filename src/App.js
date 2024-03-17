@@ -167,6 +167,7 @@ function App() {
     width: 'auto', // Adjust based on your needs
     height: 'auto', // Adjust based on your needs
     overflow: 'hidden',
+    whiteSpace: 'nowrap'
     // Add more styles as needed
   }}
 >
