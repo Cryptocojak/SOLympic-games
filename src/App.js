@@ -16,14 +16,14 @@ const sponsorImages = {
 };
 
 const sponsors = [
-  { sponsorName: "(SOLympic Games)", sponsorImage: sponsorImages.unsponsored, href: "https://twitter.com/SOLympicgames" },
-  { sponsorName: "(Goblintown)", sponsorImage: sponsorImages.goblintown, href: "https://twitter.com/goblintown" },
-  { sponsorName: "(CryptoTheGame)", sponsorImage: sponsorImages.cryptogame, href: "https://twitter.com/cryptothegame_" },
-  { sponsorName: "(anon)", sponsorImage: sponsorImages.milady, href: "https://twitter.com/MiladyMaker333" },
-  { sponsorName: "(LawbStation)", sponsorImage: sponsorImages.lawbs, href: "https://twitter.com/LawbStation" },
-  { sponsorName: "(LMEOW)", sponsorImage: sponsorImages.lmeow, href: "https://twitter.com/LMEOWSolToken" },
-  { sponsorName: "(unicornandmemes)", sponsorImage: sponsorImages.unicorn, href: "https://twitter.com/unicornandmemes" },
-  { sponsorName: "(onlybots)", sponsorImage: sponsorImages.onlybots, href: "https://twitter.com/onlydotbot" }
+  { sponsorName: "SOLympic Games", sponsorImage: sponsorImages.unsponsored, href: "https://twitter.com/SOLympicgames" },
+  { sponsorName: "Goblintown", sponsorImage: sponsorImages.goblintown, href: "https://twitter.com/goblintown" },
+  { sponsorName: "CryptoTheGame", sponsorImage: sponsorImages.cryptogame, href: "https://twitter.com/cryptothegame_" },
+  { sponsorName: "Milady", sponsorImage: sponsorImages.milady, href: "https://twitter.com/MiladyMaker333" },
+  { sponsorName: "LawbStation", sponsorImage: sponsorImages.lawbs, href: "https://twitter.com/LawbStation" },
+  { sponsorName: "LMEOW", sponsorImage: sponsorImages.lmeow, href: "https://twitter.com/LMEOWSolToken" },
+  { sponsorName: "unicornandmemes", sponsorImage: sponsorImages.unicorn, href: "https://twitter.com/unicornandmemes" },
+  { sponsorName: "onlybots", sponsorImage: sponsorImages.onlybots, href: "https://twitter.com/onlydotbot" }
 ];
 
 const DynamicTickerContent = ({ sponsors }) => {
