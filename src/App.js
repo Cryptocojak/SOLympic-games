@@ -130,9 +130,9 @@ function App() {
             m="auto"
           />
           <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/efa6ad79-3eda-486e-84f8-30b5726f6500/public' 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/0ab6d121-8696-422a-6c22-8bfafd767100/public' 
             alt="Leaderboard" 
-            width="50%"
+            width="40%"
             height="auto"
             m="auto"
           />
