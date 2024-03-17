@@ -151,28 +151,30 @@ function App() {
                 width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
           
           <style>
-  {`
-    @keyframes scrollAnimation {
-      from { transform: translateX(0%); }
-      to { transform: translateX(-50%); } // Ensure this matches the duplication
-    }
-    .scrollContainer {
-      animation: scrollAnimation 300s linear infinite; // Adjust time as needed
-    }
-  `}
-</style>
-      <Flex
-  className="scrollContainer"
-  sx={{
-    width: 'auto', // Adjust based on your needs
-    height: 'auto', // Adjust based on your needs
-    overflow: 'hidden',
-    whiteSpace: 'nowrap'
-    // Add more styles as needed
-  }}
->
-  <DynamicTickerContent sponsors={sponsors} />
-</Flex>
+            {`
+              @keyframes scrollAnimation {
+                from { transform: translateX(0%); }
+                to { transform: translateX(-50%); } // Ensure this matches the duplication
+              }
+              .scrollContainer {
+                animation: scrollAnimation 300s linear infinite; // Adjust time as needed
+              }
+              .scrollContainer:hover {
+                animation-play-state: paused;
+              }
+            `}
+          </style>
+                <Flex
+            className="scrollContainer"
+            sx={{
+              width: 'auto',
+              height: 'auto', 
+              overflow: 'hidden',
+              whiteSpace: 'nowrap'
+            }}
+          >
+            <DynamicTickerContent sponsors={sponsors} />
+          </Flex>
 
 
           {/* Column Headers */}
@@ -206,7 +208,7 @@ function App() {
                       {`#${index + 1 + (currentPage - 1) * itemsPerPage}.`}
                     </Text>
                     
-                    {/* Twitter Handle - Use Flex to prevent wrapping */}
+                    {/* Twitter Handle */}
                     <Flex
                       direction="row"
                       alignItems="center"
@@ -219,13 +221,12 @@ function App() {
                         href={`https://twitter.com/${wallet.twitter}`}
                         isExternal
                         color="blue.500"
-                        whiteSpace="nowrap"
                         fontSize='small'
                       >
                         @{wallet.twitter}
                       </Link>
+
                       {/* Sponsor Image */}
-                    
                     </Flex >
                     <Image
                       src={sponsorImages[wallet.sponsor] || sponsorImages.unsponsored}
