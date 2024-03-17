@@ -108,7 +108,7 @@ function App() {
 
   useEffect(() => {
     getBalances(); 
-    const interval = setInterval(getBalances, 45000); // Refresh every 45 seconds
+    const interval = setInterval(getBalances, 60000); // Refresh every 60 seconds
     return () => clearInterval(interval);
   }, [getBalances]);
 
@@ -121,7 +121,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box  bgColor="#BDE0FE" minHeight="100vh" overflowX="hidden">
-        <VStack spacing={4}>
+        <VStack spacing={2}>
           <Image p={5}
             src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/3f3b5f23-3326-4f9f-c0ca-591a08a6f800/public' 
             alt="SOLympic Games" 
@@ -129,20 +129,21 @@ function App() {
             height="auto" 
             m="auto"
           />
-          {/* <Image 
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/a4c57b09-d60a-4c40-838a-a208ba340f00/public' 
+          <Image 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/efa6ad79-3eda-486e-84f8-30b5726f6500/public' 
             alt="Leaderboard" 
             width="50%"
             height="auto"
             m="auto"
-          /> */}
+          />
+          <br></br>
          
-          <Text fontSize={["2xl", "80"]} // Adjust font size based on the viewport width
+          {/* <Text fontSize={["2xl", "80"]} // Adjust font size based on the viewport width
                 fontStyle="italic"
                 fontWeight="bold"
                 textAlign="center"
                 whiteSpace="nowrap"
-                width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
+                width={["100%", "75%", "50%"]}>LEADERBOARD</Text> */}
           
           <style>
             {`
