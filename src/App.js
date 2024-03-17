@@ -129,7 +129,7 @@ function App() {
       <Box  bgColor="#BDE0FE" minHeight="100vh" overflowX="hidden">
         <VStack spacing={4}>
           <Image p={5}
-            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b977fcaf-28e0-444a-ca3b-5058e42ed200/public' 
+            src='https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/3f3b5f23-3326-4f9f-c0ca-591a08a6f800/public' 
             alt="SOLympic Games" 
             width="75%"
             height="auto" 
@@ -260,7 +260,7 @@ function App() {
               disabled={currentPage <= 1} // Prevent going to previous page if on the first page
               mr="1"
               borderRadius='none' >
-              ↩️ Prev Page
+              ⬅️ Prev Page
             </Button>
 
             <Button
@@ -268,7 +268,7 @@ function App() {
               disabled={currentPage >= totalPages} // Disable if on the last page or no more items to show
               mr="1"
               borderRadius='none'>
-              Next Page ↪️
+              Next Page ➡️
             </Button>
           </Flex>
 
