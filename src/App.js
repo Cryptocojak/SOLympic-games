@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { ChakraProvider, Box, VStack, Link, List, ListItem, Image, Flex, Text, theme, Button, keyframes, useMediaQuery} from '@chakra-ui/react';
+import { ChakraProvider, Box, VStack, Link, List, ListItem, Image, Flex, Text, theme, Button} from '@chakra-ui/react';
 
 import hardcodedAddresses from './walletAddresses.json'; 
 
@@ -15,17 +15,62 @@ const sponsorImages = {
   onlybots: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/acfc39a3-a769-42bb-db92-5aaca4782500/public'
 };
 
-const scrollAnimation = keyframes`
-  from { transform: translateX(500vw); }
-  to { transform: translateX(-500vw); }
-`;
+const sponsors = [
+  { sponsorName: "(SOLympic Games)", sponsorImage: sponsorImages.unsponsored, href: "https://twitter.com/SOLympicgames" },
+  { sponsorName: "(Goblintown)", sponsorImage: sponsorImages.goblintown, href: "https://twitter.com/goblintown" },
+  { sponsorName: "(CryptoTheGame)", sponsorImage: sponsorImages.cryptogame, href: "https://twitter.com/cryptothegame_" },
+  { sponsorName: "(anon)", sponsorImage: sponsorImages.milady, href: "https://twitter.com/MiladyMaker333" },
+  { sponsorName: "(LawbStation)", sponsorImage: sponsorImages.lawbs, href: "https://twitter.com/LawbStation" },
+  { sponsorName: "(LMEOW)", sponsorImage: sponsorImages.lmeow, href: "https://twitter.com/LMEOWSolToken" },
+  { sponsorName: "(unicornandmemes)", sponsorImage: sponsorImages.unicorn, href: "https://twitter.com/unicornandmemes" },
+  { sponsorName: "(onlybots)", sponsorImage: sponsorImages.onlybots, href: "https://twitter.com/onlydotbot" }
+];
+
+const DynamicTickerContent = ({ sponsors }) => {
+  const [duplicatedContent, setDuplicatedContent] = useState([]);
+
+  useEffect(() => {
+    const duplicateContent = () => {
+      const timesToDuplicate = 40; // Increase duplication for a smoother loop
+      setDuplicatedContent(new Array(timesToDuplicate).fill(sponsors.flat()));
+    };
+  
+    duplicateContent();
+  }, [sponsors]);
+
+  return (
+    <>
+      {duplicatedContent.map((group, index) =>
+        group.map((sponsor, sponsorIndex) => (
+          <TickerItem key={`sponsor-${index}-${sponsorIndex}`} {...sponsor} />
+        ))
+      )}
+    </>
+  );
+};
+
+
+const TickerItem = ({ sponsorName, sponsorImage, href }) => (
+  <Link href={href} isExternal color="blue.500" fontSize='small'>
+    <Flex align='stretch' mx={10}> {/* mx here ensures spacing between items */}
+      <Text as='span'>{sponsorName}</Text>
+      <Image
+        src={sponsorImage}
+        boxSize="25px"
+        objectFit="cover"
+        ml={2}
+        mt={{ base: "1", md: "0" }}
+        display="inline-flex"
+      />
+    </Flex>
+  </Link>
+);
 
 function App() {
   const [balances, setBalances] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
  // Dynamically set itemsPerPage based on viewport width
  const [itemsPerPage, setItemsPerPage] = useState(window.innerWidth < 768 ? 5 : 10);
- const [isMobile] = useMediaQuery('(max-width: 768px)');
 
  // Listen for changes in viewport size to adjust itemsPerPage
  useEffect(() => {
@@ -105,88 +150,28 @@ function App() {
                 whiteSpace="nowrap"
                 width={["100%", "75%", "50%"]}>LEADERBOARD</Text>
           
-          <Flex
-          align='center'
-          justify='space-evenly'
-          wrap="nowrap" // Prevent wrapping
-          width="auto"
-          minWidth={isMobile ? "100vw" : "500vw"}
-          fontFamily='monospace'
-          whiteSpace='nowrap'
-          height='-webkit-fit-content'
-          justifyContent='space-evenly'
-          overflow="hidden" // Hide the overflow
-          animation={`${scrollAnimation} 60s linear infinite`
-          
-        } // Apply the animation
-        >
-                    
-                    <Link href="https://twitter.com/SOLympicgames" isExternal color="blue.500" fontSize='small'><Flex >(SOLympic Games)<Image
-                      src={sponsorImages.unsponsored}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" />
-                      </Flex></Link>
-                    <Link href="https://twitter.com/goblintown" isExternal color="blue.500" fontSize='small'><Flex>(Goblintown)<Image
-                      src={sponsorImages.goblintown}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "0" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                   <Link href="https://twitter.com/cryptothegame_" isExternal color="blue.500" fontSize='small'><Flex >(CryptoTheGame)<Image
-                      src={sponsorImages.cryptogame}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                   <Link href="https://twitter.com/MiladyMaker333" isExternal color="blue.500" fontSize='small'><Flex>(anon)<Image
-                      src={sponsorImages.milady}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                    <Link href="https://twitter.com/LawbStation" isExternal color="blue.500" fontSize='small'><Flex>(LawbStation)<Image
-                      src={sponsorImages.lawbs}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                   <Link href="https://twitter.com/LMEOWSolToken" isExternal color="blue.500" fontSize='small'><Flex>(LMEOW)<Image
-                      src={sponsorImages.lmeow}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                    <Link href="https://twitter.com/unicornandmemes" isExternal color="blue.500" fontSize='small'><Flex>(unicornandmemes)<Image
-                      src={sponsorImages.unicorn}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-                    <Link href="https://twitter.com/onlydotbot" isExternal color="blue.500" fontSize='small'><Flex>(onlybots)<Image
-                      src={sponsorImages.onlybots}
-                      boxSize="25px"
-                      objectFit="cover"
-                      ml={{ base: "0", md: "2" }}
-                      mt={{ base: "1", md: "0" }}
-                      mx={20} // Apply horizontal margin for spacing between items
-      display="inline-flex" /></Flex></Link>
-              </Flex>
+          <style>
+  {`
+    @keyframes scrollAnimation {
+      from { transform: translateX(0%); }
+      to { transform: translateX(-50%); } // Ensure this matches the duplication
+    }
+    .scrollContainer {
+      animation: scrollAnimation 180s linear infinite; // Adjust time as needed
+    }
+  `}
+</style>
+      <Flex
+  className="scrollContainer"
+  sx={{
+    width: 'auto', // Adjust based on your needs
+    height: 'auto', // Adjust based on your needs
+    overflow: 'hidden',
+    // Add more styles as needed
+  }}
+>
+  <DynamicTickerContent sponsors={sponsors} />
+</Flex>
 
 
           {/* Column Headers */}
