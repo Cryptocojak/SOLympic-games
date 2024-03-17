@@ -280,6 +280,16 @@ function App() {
             m="auto"
             borderRadius="lg"
           />
+          <Flex align='stretch' mx={10} width='auto'>
+          <Text fontSize='25px' fontWeight='black' fontStyle='italic' width='auto'>
+              <Link href="https://twitter.com/SOLympicgames" isExternal color="black" ml={0}>
+                TWITTER
+              </Link> 
+              <Link href="https://twitter.com/wirelyss/status/1768738173868294474" isExternal color="black" ml={8}>
+                ABOUT
+              </Link>
+            </Text>
+          </Flex>
           <Box as="footer" width="full" py={5} textAlign="center">
             <Text>
               Created by 
