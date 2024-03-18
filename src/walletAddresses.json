@@ -1,707 +1,527 @@
 [
   {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
+    "address": "G9BVY7xmrfaeFMuZwvyWFpDstGdMK114FTSPEreWLuDV",
     "sponsor": "milady",
-    "twitter": "wirelyss"
+    "twitter": "humilitynow"
   },
   {
-    "address": "2MSc3susCjPF4VijCqFmC9tu5RnXHmqZL5nBMWSMjacz",
+    "address": "HUvoR7pZcdeUM6FiNiKjTaksCMCRHrESMrui4yhyGvVF",
     "sponsor": "milady",
-    "twitter": "ddd"
+    "twitter": "jheronimusla"
   },
   {
-    "address": "E5NvFKib1sseEwwHESTjMn2kPB4dzmd43Ngay8LyqGev",
-    "sponsor": "goblins",
-    "twitter": "fff"
+    "address": "5NV17roaxffDLcJqcN8uGggKM4jq8Ty5CdxWyk9EtXb5",
+    "sponsor": "milady",
+    "twitter": "itsdyddy"
   },
   {
-    "address": "G7pBAMkDGkSVjhitPNtNuQzsiUQH23DKiVZQDrmzJaWu",
+    "address": "VXBHog2FNBzMSfBP9Njkc3L1oV8aqYE1fs2TsHLZ931",
+    "sponsor": "milady",
+    "twitter": "prnth_"
+  },
+  {
+    "address": "5x8TcN5zSNL3E4PG7ZC4mwRNUQb6J61X4QrDbzrfJBXL",
+    "sponsor": "milady",
+    "twitter": "radcat69"
+  },
+  {
+    "address": "DQaNL2Pk6Zzb8j9LfrMhAHQg5ye3kiJnSdgWpxprkS3C",
+    "sponsor": "milady",
+    "twitter": "topimpablockch1"
+  },
+  {
+    "address": "92Rqor33z1GknvDVsyGMC2FqmbRnEdaYpwhbHBePqTDF",
+    "sponsor": "milady",
+    "twitter": "Onlycryptonopo2"
+  },
+  {
+    "address": "CB5JkkQK98JzBkBMs551oyxHdd3yecZNTDRU769MiiRA",
+    "sponsor": "milady",
+    "twitter": "solidMilady"
+  },
+  {
+    "address": "GhKvckSE3K7QgjdJ6wHNNbUXuVFxW4rxRPwN4XXGoykk",
+    "sponsor": "milady",
+    "twitter": "FreeZhol"
+  },
+  {
+    "address": "2MQBfPKkPr6VriJ2mrQrGMYQP3wazUjDqEto1mVbCkhB",
+    "sponsor": "milady",
+    "twitter": "Raisvo"
+  },
+  {
+    "address": "9vB1bNKWmz8PeURpHtTxtA1zhzsb7UddFNGD6mtCa7eK",
     "sponsor": "cryptogame",
-    "twitter": "ggg"
+    "twitter": "Christian_Dtmr"
   },
   {
-    "address": "E1mh1Wfm7JK78fJSh3Ta8XwV43tuuAkhoikVCvvDWmeg",
-    "sponsor": "onlybots",
-    "twitter": "chhh"
-  },
-  {
-    "address": "7Bj2yNCFVuF7zftWofGFQ8eAcKeAnSYu7H6TpWmxLCWh",
-    "sponsor": "unsponsored",
-    "twitter": "jjj"
-  },
-  {
-    "address": "2MSc3susCjPF4VijCqFmC9tu5RnXHmqZL5nBMWSMjacz",
-    "sponsor": "milady",
-    "twitter": "ddd"
-  },
-  {
-    "address": "E5NvFKib1sseEwwHESTjMn2kPB4dzmd43Ngay8LyqGev",
-    "sponsor": "goblins",
-    "twitter": "fff"
-  },
-  {
-    "address": "G7pBAMkDGkSVjhitPNtNuQzsiUQH23DKiVZQDrmzJaWu",
+    "address": "FyKfj2FMVsBKdwcvHaeqXGNLFeYRLj5qHLJydxKNxiru",
     "sponsor": "cryptogame",
-    "twitter": "ggg"
+    "twitter": "allsee"
   },
   {
-    "address": "29qEo2s5oP8cSspnMUPLKdW9P2rCCu4P18KS3SBE1EHH",
+    "address": "GGeHyF5Nm54pzNYYaNsCW1go8BaXA6iPWN4sieieydwG",
+    "sponsor": "cryptogame",
+    "twitter": "JSunDerulo"
+  },
+  {
+    "address": "F7JNz7MovVHa2HBg2wEksciPfyZLecyZUo3TkgcQor2n",
+    "sponsor": "cryptogame",
+    "twitter": "white_house_eth"
+  },
+  {
+    "address": "hiYrMKM9Um6yvCYpCSoaedKzdi3YwNxJCX2JyYGMafR",
+    "sponsor": "cryptogame",
+    "twitter": "1MrPapi"
+  },
+  {
+    "address": "7S1kCgKCMPCY4ZHwF71qu9vhUDUYqUUdMkAY3sAZG21t",
+    "sponsor": "cryptogame",
+    "twitter": "MFL_tw"
+  },
+  {
+    "address": "DhybojPxR9opdTcRvLnNCuQtvbc1xeFZGGvMpoymHF78",
+    "sponsor": "cryptogame",
+    "twitter": "tomsegal"
+  },
+  {
+    "address": "GxtmSJbaYpbfGB3FAWhE43YL2CZF6tVtLgJevQR7pRkY",
+    "sponsor": "cryptogame",
+    "twitter": "JRRtokenNFT"
+  },
+  {
+    "address": "7in2Z55Xn228tUCvNoXghgiik3axs1vUCMgfxDSwYBq8",
+    "sponsor": "cryptogame",
+    "twitter": "jonmacapodi"
+  },
+  {
+    "address": "9pHmPDJFQRQzWNY16AJrxk1ghDjkRbaNkco7Eg63ucA8",
+    "sponsor": "cryptogame",
+    "twitter": "SHL0MS"
+  },
+  {
+    "address": "EsdDu55EbvyC79UjAtfoqrcKduWEmPdJ4ptGDNM64LCT",
     "sponsor": "degods",
-    "twitter": "degodsnft"
+    "twitter": "sunnymaanz"
   },
   {
-    "address": "E1mh1Wfm7JK78fJSh3Ta8XwV43tuuAkhoikVCvvDWmeg",
+    "address": "BFH3jqpJpfxuhFqpLAcxtBLnMadR47u9w2mbxm2Dmnvm",
+    "sponsor": "degods",
+    "twitter": "credlessk"
+  },
+  {
+    "address": "ashBvFhWQuZyaX2Ak2hh8qopwYnyW4SbHuC1tVUT6TB",
+    "sponsor": "degods",
+    "twitter": "beanxDeFi"
+  },
+  {
+    "address": "Gp9yHf8Br1z4kRVb1Ntfhp7yRt3j3ZW7BNGZhF2nrR9E",
+    "sponsor": "degods",
+    "twitter": "devtonic_sol"
+  },
+  {
+    "address": "6usGezsGsgpNy2R8e6YtuBmt5dBXyp8t2ZstPT6UeD6n",
+    "sponsor": "degods",
+    "twitter": "coinforumgod"
+  },
+  {
+    "address": "HMsbiq2SRoj3xTwV8DEzcekM2vspjKc33cAJdnjQwJN7",
+    "sponsor": "degods",
+    "twitter": "dsan_deep"
+  },
+  {
+    "address": "4nQNN2ZdVVncX58KzQMSccVLmTGb5fZxaTcL3v3pW5aC",
+    "sponsor": "degods",
+    "twitter": "illoPodori"
+  },
+  {
+    "address": "5oSqCoB6FHL4jYdTGREAtNNFaJdTiwN8RtCcNryJMDuQ",
+    "sponsor": "degods",
+    "twitter": "NFTJsco"
+  },
+  {
+    "address": "36WE31dUYjos8vkDpC6rSu3bAajepNq3YTyTGqbYv5JD",
+    "sponsor": "degods",
+    "twitter": "joshfromgm"
+  },
+  {
+    "address": "HQeKbS6sKyNmUJRx7yi79AYmh3Bz5X6xooQ7MMAu4rZQ",
+    "sponsor": "degods",
+    "twitter": "Glowingnood"
+  },
+  {
+    "address": "AwYpubQUUFZS8QHfT3bey9mFvBqzB1MazrEgZA6A8BEP",
+    "sponsor": "goblintown",
+    "twitter": "GankNabit"
+  },
+  {
+    "address": "7yMJAaGqsJRTGAQpnFRV7jqHztgisoCNy57aktQw6i8X",
+    "sponsor": "goblintown",
+    "twitter": "KingofFling"
+  },
+  {
+    "address": "3yjXLrgK59fRPwXDLzUwMviAHh7crLxXpwaKFReuSi68",
+    "sponsor": "goblintown",
+    "twitter": "RiccardoDante2"
+  },
+  {
+    "address": "8Rop8mbrCxuNms7BnHDVKkLbAvw8D3kXRVm3ejCyVe12",
+    "sponsor": "goblintown",
+    "twitter": "technokolor420"
+  },
+  {
+    "address": "DnFusXysbpkPR5VB6pMpcEQ6hQzEnSdRHH7f5FYDVdAQ",
+    "sponsor": "goblintown",
+    "twitter": "vger_ic"
+  },
+  {
+    "address": "67asiq7JHqWydLgvZdGTc6iZzUAxWcNGkyHoL7qpaZhq",
+    "sponsor": "goblintown",
+    "twitter": "bryan_dub"
+  },
+  {
+    "address": "72ZrxGt6Y2oLVUxsPZNC9uSCpp4MA2Z56cS7Gprh14C",
+    "sponsor": "goblintown",
+    "twitter": "icecreamsandwtf"
+  },
+  {
+    "address": "8TzHdn71pXc7FvuPqCjXTLFSP7yNBg4dJESy3TvuCQjm",
+    "sponsor": "goblintown",
+    "twitter": "BurgerbotClt"
+  },
+  {
+    "address": "SFuwQEvas141PnSLC8UqSu1rqLV4hwa2ykDRkJee6XK",
+    "sponsor": "goblintown",
+    "twitter": "LionBearDad"
+  },
+  {
+    "address": "8e89fn2FH4xMw2Rk4TC9tc7B49BPxDBFR4Qt9M9N3AHH",
+    "sponsor": "goblintown",
+    "twitter": "wagmicrew"
+  },
+  {
+    "address": "A5vxD2XkJVPKPKsvVyzi55vUYB3UjWtvFfu7uu9zfCnF",
+    "sponsor": "goblintown",
+    "twitter": "nvrezrjstfstr"
+  },
+  {
+    "address": "APEFU9hQiVV4H5wMcD1pa7pyWg5EabgQnUz47VFAwrc7",
+    "sponsor": "goblintown",
+    "twitter": "Pir8teAngel "
+  },
+  {
+    "address": "ksVgJqo61Vmx2xNfA3oUaxKgJiuGt4Kdsajxwf2FhrN",
+    "sponsor": "goblintown",
+    "twitter": "grizzle_art"
+  },
+  {
+    "address": "9gNV6rky7zVYeMrkztZ3ns74jYCT3nxHrsTA3QonHHej",
+    "sponsor": "goblintown",
+    "twitter": "baconator_thee"
+  },
+  {
+    "address": "EaVcvaQyJHgXPEEpPfjTWocEeTtMG9BLLteGLpC77XKs",
+    "sponsor": "goblintown",
+    "twitter": "echarlesss"
+  },
+  {
+    "address": "BgYbE9zL1FqhJ5ETYaJnVkMnVYXKpwaeVfUBPw12piWb",
     "sponsor": "onlybots",
-    "twitter": "chhh"
+    "twitter": "chaddilac33"
   },
   {
-    "address": "7Bj2yNCFVuF7zftWofGFQ8eAcKeAnSYu7H6TpWmxLCWh",
-    "sponsor": "unsponsored",
-    "twitter": "jjj"
-  },
-  {
-    "address": "J8yTo6AEKG3i3udn2f4kyDLb28DnHMpwC5e8Nx3Eqay",
+    "address": "Aaf887C3AcSWahvQWcEFpHEnqz6u35UESJkpi2hNNiKy",
     "sponsor": "onlybots",
-    "twitter": "onlydotbot"
+    "twitter": "gabobo_eth"
   },
   {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
+    "address": "3bsPpb6hNVhF5jUpcDKArWpMJZG83YYwKGXhAbT3FoN2",
+    "sponsor": "onlybots",
+    "twitter": "HenkDev64911134"
   },
   {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
+    "address": "2RppnCtKFVxfQum3gHadBJkDyWLs1W5BeQjdkQzFaPQ5",
+    "sponsor": "onlybots",
+    "twitter": "d_karpushkin"
   },
   {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
+    "address": "9vpDAMstenT7iEZCtrBgqA5FZ7XWQ6zQmnz3MswN3itW",
+    "sponsor": "onlybots",
+    "twitter": "SouthG268"
+  },
+  {
+    "address": "9m9cR6Wi1D3AeF8q6uWrHvk4idRqRvePi7Q7Q8pSp54X",
+    "sponsor": "onlybots",
+    "twitter": "PharmDoich"
+  },
+  {
+    "address": "8ykoLYZtxexC7zZrSX1sGv9dAYSbN6UMT9SqTCMjygxx",
     "sponsor": "lmeow",
-    "twitter": "cryptocojak"
+    "twitter": "rickbpn"
   },
   {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "address": "4oLTGuHmciAHM8m7YYVDc46poYCrxgWRVRLpUAdCkLQP",
+    "sponsor": "lmeow",
+    "twitter": "RedOctober_"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
+    "address": "HeC1LvUHAZ7Y9UDUgYQNTddQfpggVRLDLBcALbfCRCT9",
+    "sponsor": "lmeow",
+    "twitter": "ChinchillaEsqu1"
+  },
+  {
+    "address": "3XyaRgd8Bvr5TdZ2ie8b1dDS3ZrwLatQpGv6C9ad3Rdr",
+    "sponsor": "lmeow",
+    "twitter": "EtherEnthused"
+  },
+  {
+    "address": "2oPkbM44kWKQX6zBoUDRyFXiYSx5rEHk6P6Svqdaq9mC",
+    "sponsor": "lmeow",
+    "twitter": "Bhodl2  "
+  },
+  {
+    "address": "M52vUF2CYBZpGCErDF9rLrwcYtihRi8shFSwGypckNt",
+    "sponsor": "lmeow",
+    "twitter": "CryptoBrims"
+  },
+  {
+    "address": "EnLV1orJcYdS6xSE2zGkA2g6Absx91aN9xZzzPJBYqDP",
+    "sponsor": "lmeow",
+    "twitter": "The_DonFather_"
+  },
+  {
+    "address": "9JFrRXWB9jkRPU8n5xoW5eQkWDsCxwUZqimLvQcH5Ps3",
+    "sponsor": "lmeow",
+    "twitter": "BLEACHBOYeth"
+  },
+  {
+    "address": "9C3M5BvWDhkL893cbsWt8W7pAkp5HZYoSrXcSty9r1by",
+    "sponsor": "lmeow",
+    "twitter": "BenCrios"
+  },
+  {
+    "address": "3c552yZH1d79226VVGB4SKsttN5L4uRk8rdtkeEVFaX7",
+    "sponsor": "lmeow",
+    "twitter": "NftShamansDream"
+  },
+  {
+    "address": "CvECNVWzr1DwBDrtrsK5SsfSVzqsoSocYdgsLnaBvVoE",
     "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
+    "twitter": "Cappi42"
   },
   {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
+    "address": "49SvAbDXwCcTZ2WeRSjiPQWBSgCRS6dFZ9beewzUuKNS",
+    "sponsor": "unicorn",
+    "twitter": "crypto_navi"
+  },
+  {
+    "address": "UTUGqWH6iDwpqFKBx7xVSWpXqCCN4Z36QPkn7cn7qY4",
+    "sponsor": "unicorn",
+    "twitter": "bbwifhat"
+  },
+  {
+    "address": "J4s4YUjZtQ6nvJjJJ1ysbVZLar2rxGjJPy68fALTYqa4",
+    "sponsor": "unicorn",
+    "twitter": "GamesMasterFlex"
+  },
+  {
+    "address": "D1X79jkiPseFK6mUBAQZt9PoXns184CaXCXHuXB5imc2",
+    "sponsor": "unicorn",
+    "twitter": "JutSao"
+  },
+  {
+    "address": "9p7dJFfpdGRvNEZJYLT3fMaqK3s8HUrdEf6U7gu3RnWW",
+    "sponsor": "unicorn",
+    "twitter": "0xJmel"
+  },
+  {
+    "address": "CuycYfhowQYP3bW9Zym9KLj6SxDUPKejk7gRntGBQiCL",
+    "sponsor": "unicorn",
+    "twitter": "bohotrades"
+  },
+  {
+    "address": "6QPu6V2kEttyfu8AqUSpvspEuU1RxfuLywGrcSwowGA1",
+    "sponsor": "unicorn",
+    "twitter": "ppbnny"
+  },
+  {
+    "address": "BtBUwF83u1qj1ra7KdTRWPEkr4Zg1cqStSYthU6YKXUA",
+    "sponsor": "unicorn",
+    "twitter": "0xStarBird"
+  },
+  {
+    "address": "DuPXLGCCUQGPTx8HzS2S8dPzez7e65kSwwRwSFgAP96t",
+    "sponsor": "unicorn",
+    "twitter": "RealXmasBeer"
+  },
+  {
+    "address": "7fPN4h1wAJB9N5DsEE3bVmAGkjjfWih4u5YbBGuwM6fq",
+    "sponsor": "unicorn",
+    "twitter": "WallyWowzers"
+  },
+  {
+    "address": "G6ndcocAcnTXPdwbpkUs1mx5iP2ZwPYw6Z3kHLfGgBFA",
+    "sponsor": "unicorn",
+    "twitter": "Digidreamer_ETH"
+  },
+  {
+    "address": "5Aa3qPAgZu6SXNGzAwRjiQDCNw8BwToiRqndib8Xsmr7",
+    "sponsor": "unicorn",
+    "twitter": "burnfbi"
+  },
+  {
+    "address": "2LMtoQjQRUckfXsHPKVmX5RkKji1b6ktjDXfa24ns7SU",
+    "sponsor": "unicorn",
+    "twitter": "daskyisblue"
+  },
+  {
+    "address": "d2ftwZ7uyWHYnQFqJDZcfnrX2hxJUS6MZhGTDLyTKKq",
+    "sponsor": "unicorn",
+    "twitter": "Hex760"
+  },
+  {
+    "address": "6N6m4pKGpPBvqKfizaH3Jm4132og3X7Wju2no6REefS1",
+    "sponsor": "unicorn",
+    "twitter": "Siducer"
+  },
+  {
+    "address": "m4zCiCTyPGjeVpg6CvvtkKoZHaaZ6pHU4cVkXL7s5gf",
+    "sponsor": "unicorn",
+    "twitter": "wownotbad"
+  },
+  {
+    "address": "931Ljg5AvKD29rcnLTi5gZoBUtQzbApid9na5mZA6Wec",
+    "sponsor": "unicorn",
+    "twitter": "dollafinito"
+  },
+  {
+    "address": "9p7dJFfpdGRvNEZJYLT3fMaqK3s8HUrdEf6U7gu3RnWW",
+    "sponsor": "unicorn",
+    "twitter": "grevgrev"
+  },
+  {
+    "address": "8AFaHX5tXLFDKLDZMcsujQuzdZ8TWHn68GKXVd2oDQn8",
+    "sponsor": "unicorn",
+    "twitter": "plumferno"
+  },
+  {
+    "address": "4T8SpAjqMviFtFDNdyo4gc5FYGugCSs6UHCU4UDxK3pb",
     "sponsor": "lawbs",
-    "twitter": "LawbStation"
+    "twitter": "studio_daddy"
   },
   {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
+    "address": "DsgdSYLt7M4Zq3hDDXLrt1tpY5zbiWCLT1kdyw6cm8ch",
+    "sponsor": "lawbs",
+    "twitter": "donotjeet"
+  },
+  {
+    "address": "6EyxCPzoSmQPnfHmVqvRDp1ehCxYh5Be8MbQsfnrRiaE",
+    "sponsor": "lawbs",
+    "twitter": "poormonke"
+  },
+  {
+    "address": "Dserw92pHi3RBfcJDqcV4GtpY1pp1mCguEfSw4ZPaoUf",
+    "sponsor": "lawbs",
+    "twitter": "1ketaminepatch"
+  },
+  {
+    "address": "GikMmygtmFeMBY3S89TAH7cE8o8uHXZBuUkccJLaTYzC",
+    "sponsor": "lawbs",
+    "twitter": "0x9813"
+  },
+  {
+    "address": "6gsrCdDTzi82nvJ2jbxF8APnKwsBh1WeGRtgDP59bnd5 ",
+    "sponsor": "goblintown",
+    "twitter": "ajt"
+  },
+  {
+    "address": "8AjyuxDBJN7gcDox2VtN2RmnGAwiY8ECP5SxiSaSgpUy",
+    "sponsor": "unsponsored",
+    "twitter": "DrewAustin"
+  },
+  {
+    "address": "H1xXmfSkYFa4JDuzw3ZJuNTQUceyq2DTs2mZqUzfqhCo",
+    "sponsor": "unsponsored",
+    "twitter": "Yannix"
+  },
+  {
+    "address": "NSwkDJDnojCFhSAj95CsvWzNVqyXF8rbqKpNZftbohR",
     "sponsor": "milady",
-    "twitter": "wirelyss"
+    "twitter": "p3shoemaker"
   },
   {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "D8duZf4fXUTETNimZKtE4MxciiJx9iqCSgsNvkGJhtnP",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "nicomaducandang"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "s5EMCP8ZHkfVYpC1PBBpqx6rNG6LM8Ap1yA7gATLvyR",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "hzzVega"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "4sT6SBuwaFVHZzroxkESHDX3D1qcAxFqZpS4uHZKHr46",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "brNXBT"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "Bo5Bu7hf2ioxBgntzcuLUeaYn1LwwG9fEMNz1bmYydv2",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "rabbitrun_eth"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "E1cEAVTYZ7xHskWQ5dg914ZhjF9jE5JmNUCxofWKmETC",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "0xMomooo"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "FR44KFE1rLwAbJhvRe9DxikCe3uEWWj2KZBNmwomuXYf",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "kurage_bitcoin"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "AiYD417TY47b8bpLyA1DLgG3fViUwUQmMyFwJhaoPD5r",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "TDegraq"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "BQX17sQMg9uCAKwTzbC6HAg74uhDsAY7RVMf8H6Wb18P",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "comfyrelax"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "FXPxFWeYR65ZQvaMRjCPPRfi4hQ96qyyKuf55xGTuBxL",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "never_render"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "D4wnEuk8v3FeTNpHZ2ahYniqXqGVTQvqAkBHd9NYxb7q",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "gratefulone420"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "ekXcX71reUWi1fmRhK9yVYnsHTXMSWEp2FksGUYxmnL",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "KnA__aY"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "BSMhapRQYggVgKJ2KdFxY4VFLowYyvAsCAuhoY5bZfFs",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "0xMojojo"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "D1X79jkiPseFK6mUBAQZt9PoXns184CaXCXHuXB5imc2",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "JutSao"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "6deRa9WHEAq6KSCytfzg5RXL41DVdxPJTc1p8oCR9EvQ",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
+    "twitter": "PapaCrypto10"
   },
   {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
+    "address": "AfB2zLtrVWqsv5eKxsVSXu8tgwn5vZXRJqpGHV9bNFXG",
     "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  },
-  {
-    "address": "Gti4VkCBE9vYVzKziqqPVSCMkSA8xGpevTfdvnZdu8uC",
-    "sponsor": "milady",
-    "twitter": "wirelyss"
-  },
-  {
-    "address": "3Ye3o3GBxRf744TP4swghvPYGbBSdLJTeMyFFfZyVN4N",
-    "sponsor": "goblintown",
-    "twitter": "shrimpbrah"
-  },
-  {
-    "address": "Gwe6uHVnsAiMz4cYRxvsfMpT2zZksoF3mAwcvSunwQzY",
-    "sponsor": "cryptogame",
-    "twitter": "cryptothegame_"
-  },
-  {
-    "address": "4nFB3uv1dkXF46X1zGHepepKNczPAu4ZWC2EdoVQbicV",
-    "sponsor": "lmeow",
-    "twitter": "cryptocojak"
-  },
-  {
-    "address": "DwVM61mDMwz7X9dEnCnhTTntma9dWVkPdUjZKXEoruEq",
-    "sponsor": "unsponsored",
-    "twitter": "goblintown"
-  },
-  {
-    "address": "DBDpR9bn3PsX4kjwfFGStGRc2RAD4zCWETrxKtGtPdUk",
-    "sponsor": "unicorn",
-    "twitter": "cigawrettepacks"
-  },
-  {
-    "address": "CsuTkKos6x2kks8Y3nFv53jTDbmBnWoEjoBHqBKU5hku",
-    "sponsor": "lawbs",
-    "twitter": "LawbStation"
-  }      
+    "twitter": "a_ta_bak"
+  }
 ]
