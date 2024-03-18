@@ -425,7 +425,7 @@
     "twitter": "0x9813"
   },
   {
-    "address": "6gsrCdDTzi82nvJ2jbxF8APnKwsBh1WeGRtgDP59bnd5 ",
+    "address": "6gsrCdDTzi82nvJ2jbxF8APnKwsBh1WeGRtgDP59bnd5",
     "sponsor": "goblintown",
     "twitter": "ajt"
   },
@@ -533,5 +533,10 @@
     "address": "BqDUMoVnConR17eJJkNNNp1UsLsXqdQ5BrA7oTNRzmDT",
     "sponsor": "unsponsored",
     "twitter": "autom8ed_eth"
+  },
+  {
+    "address": "Co5aFBzvqYYg4Va1KHhCc1VcofZs2UbNBMrP575upmWY",
+    "sponsor": "unsponsored",
+    "twitter": "jkhoya"
   }
 ]
