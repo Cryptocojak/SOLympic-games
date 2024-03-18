@@ -11,7 +11,8 @@ const sponsorImages = {
   lmeow: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/ca8c7918-1f0e-4adb-a59c-389665072c00/public',
   lawbs: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/5f14d527-4e76-4470-f43d-af1237dda100/public',
   unicorn: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/b2ff3798-162a-4c3d-6291-a68a5c80ee00/public',
-  onlybots: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/acfc39a3-a769-42bb-db92-5aaca4782500/public'
+  onlybots: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/acfc39a3-a769-42bb-db92-5aaca4782500/public',
+  degods: 'https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/cdb3cf45-9e51-4621-2244-fe57393a1400/public'
 };
 
 const sponsors = [
@@ -22,7 +23,8 @@ const sponsors = [
   { sponsorName: "LawbStation", sponsorImage: sponsorImages.lawbs, href: "https://twitter.com/LawbStation" },
   { sponsorName: "LMEOW", sponsorImage: sponsorImages.lmeow, href: "https://twitter.com/LMEOWSolToken" },
   { sponsorName: "unicornandmemes", sponsorImage: sponsorImages.unicorn, href: "https://twitter.com/unicornandmemes" },
-  { sponsorName: "onlybots", sponsorImage: sponsorImages.onlybots, href: "https://twitter.com/onlydotbot" }
+  { sponsorName: "onlybots", sponsorImage: sponsorImages.onlybots, href: "https://twitter.com/onlydotbot" },
+  { sponsorName: "DeGods", sponsorImage: sponsorImages.degods, href: "https://twitter.com/degodsnft" }
 ];
 
 const DynamicTickerContent = ({ sponsors }) => {
@@ -265,7 +267,7 @@ function App() {
           <Box
           width="100%" // Ensures the Box takes the full width of its container
           height="240px" // Adjust this value based on your needs, ensuring enough space for the tiling effect
-          bgImage="url('https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/e6998dbd-c7d8-4772-465c-d3443bdcd800/public')"
+          bgImage="url('https://memedepot.com/cdn-cgi/imagedelivery/naCPMwxXX46-hrE49eZovw/60d7db97-9ceb-4f64-7eb4-70da40030600/public')"
           bgRepeat="repeat-x" // This will repeat the image horizontally
           bgSize="contain" // Adjust this as needed to fit the image nicely
           m="auto"
@@ -281,7 +283,7 @@ function App() {
             borderRadius="lg"
           /><br></br>
           <Flex align='stretch' mx={10} width='auto'>
-          <Text fontSize='25px' fontWeight='black' fontStyle='italic' width='auto'>
+          <Text fontSize='25px' fontWeight='extrabold' fontStyle='italic' width='auto'>
               <Link href="https://twitter.com/SOLympicgames" isExternal color="black" ml={0}>
                 TWITTER
               </Link> 
