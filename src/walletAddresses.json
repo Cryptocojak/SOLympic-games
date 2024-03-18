@@ -480,11 +480,6 @@
     "twitter": "0xMojojo"
   },
   {
-    "address": "D1X79jkiPseFK6mUBAQZt9PoXns184CaXCXHuXB5imc2",
-    "sponsor": "unsponsored",
-    "twitter": "JutSao"
-  },
-  {
     "address": "6deRa9WHEAq6KSCytfzg5RXL41DVdxPJTc1p8oCR9EvQ",
     "sponsor": "unsponsored",
     "twitter": "PapaCrypto10"
@@ -523,10 +518,5 @@
       "address": "9p7dJFfpdGRvNEZJYLT3fMaqK3s8HUrdEf6U7gu3RnWW",
       "sponsor": "unicorn",
       "twitter": "0xJmel"
-  },
-  {
-    "address": "HUvoR7pZcdeUM6FiNiKjTaksCMCRHrESMrui4yhyGvVF",
-    "sponsor": "milady",
-    "twitter": "jheronimusla"
   }  
 ]
