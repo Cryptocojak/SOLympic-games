@@ -490,9 +490,9 @@
     "twitter": "a_ta_bak"
   },
   {
-    "address": "2vbZPYfxzZT93hGK9Xnqe9bZss36BZC8cnUQWDosphhn",
-    "sponsor": "unsponsored",
-    "twitter": "seinahpets"
+    "address": "5n7ndHfY6ecANasHpJ83R39Mcad3VWJFYVSshgyEz5wM",
+    "sponsor": "onlybots",
+    "twitter": "alexherrity"
   },
   {
     "address": "8NwD7d1jbiQbDauet9o7W7X8JJAGJhB1phPxwD2b98ku",
@@ -518,5 +518,10 @@
       "address": "9p7dJFfpdGRvNEZJYLT3fMaqK3s8HUrdEf6U7gu3RnWW",
       "sponsor": "unicorn",
       "twitter": "0xJmel"
+  },
+  {
+      "address": "CrfyzJ12qsMSffMe8fGb84WYWuz7oUytrwyzzDRv2r6f",
+      "sponsor": "unsponsored",
+      "twitter": "brycent_"
   }  
 ]
