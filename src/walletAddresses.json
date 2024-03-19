@@ -470,7 +470,7 @@
     "twitter": "gratefulone420"
   },
   {
-    "address": "ekXcX71reUWi1fmRhK9yVYnsHTXMSWEp2FksGUYxmnL",
+    "address": "LAB88bNDXq4mn8A5n27q4Yw83poNX4NmoK6XYrpaVEj",
     "sponsor": "unsponsored",
     "twitter": "KnA__aY"
   },
@@ -523,5 +523,10 @@
       "address": "CrfyzJ12qsMSffMe8fGb84WYWuz7oUytrwyzzDRv2r6f",
       "sponsor": "unsponsored",
       "twitter": "brycent_"
+  },
+  {
+    "address": "G6ndcocAcnTXPdwbpkUs1mx5iP2ZwPYw6Z3kHLfGgBFA",
+    "sponsor": "unicorn",
+    "twitter": "Digidreamer_ETH"
   }  
 ]
