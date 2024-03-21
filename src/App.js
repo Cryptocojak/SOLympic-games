@@ -50,7 +50,6 @@ const DynamicTickerContent = ({ sponsors }) => {
   );
 };
 
-
 const TickerItem = ({ sponsorName, sponsorImage, href }) => (
   <Link href={href} isExternal color="blue.500" fontSize='small'>
     <Flex align='stretch' mx={10}> {/* mx here ensures spacing between items */}
@@ -138,7 +137,6 @@ function App() {
             height="auto"
             m="auto"
           /><br></br>
-        
           
           <style>
             {`
